@@ -24,7 +24,7 @@ COPY requirements.txt .
 RUN  pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 COPY models/ /app/models/
-COPY src/ /app/src/
+#COPY src/ /app/src/
 COPY run_inference.py /app/src/run_inference.py
 COPY run.sh /app/run.sh
 RUN chmod +x /app/run.sh
