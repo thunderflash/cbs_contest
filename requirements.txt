@@ -1,0 +1,17 @@
+# Core dependencies for inference (CUDA 12.8 compatible)
+# 核心深度学习框架
+#--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.0
+torchvision==0.17.0
+
+# 检测模型
+ultralytics
+
+# 图像处理与数值计算
+opencv-python-headless
+numpy==1.26.4
+pandas
+scipy
+
+# 基础工具
+tqdm
