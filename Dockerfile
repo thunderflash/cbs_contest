@@ -10,7 +10,7 @@ RUN mkdir -p /app /saisresult && \
         python3.11 \
         python3.11-dev \
         libglib2.0-0 \
-        libgl1 \          # ← Changed from libgl1-mesa-glx
+        libgl1 \
         tini \
         bash && \
     rm -rf /var/lib/apt/lists/*
