@@ -26,5 +26,3 @@ jobs:
           push: true
           tags: |
             crpi-m3oi1dospt9j921e.cn-shenzhen.personal.cr.aliyuncs.com/competition_sais_docker/competition_sais_docker_submit:latest
-            # 可选：添加更多 tag
-            # crpi-m3oi1dospt9j921e.cn-shenzhen.personal.cr.aliyuncs.com/competition_sais_docker/competition_sais_docker_submit:${{ github.sha }}
