@@ -1,4 +1,3 @@
-%%writefile test_12.py
 import os
 import cv2
 import torch

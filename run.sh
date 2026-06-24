@@ -24,18 +24,18 @@ if [ ! -f "/app/models/last.pt" ]; then
     echo "⚠️  Warning: Detection model not found at /app/models/last.pt"
 fi
 
-if [ ! -f "/app/models/pure_swin_classifier.pt" ]; then
-    echo "❌ Error: Recognition model not found at /app/models/pure_swin_classifier.pt"
+if [ ! -f "/app/models/em_iter_1.pt" ]; then
+    echo "❌ Error: Recognition model not found at /app/models/em_iter_1.pt"
     exit 1
 fi
 
-if [ ! -f "/app/models/ppmi.pkl" ]; then
-    echo "❌ Error: PPMI file not found at /app/models/ppmi.pkl"
+if [ ! -f "/app/models/ppmi_1.pkl" ]; then
+    echo "❌ Error: PPMI file not found at /app/models/ppmi_1.pkl"
     exit 1
 fi
 
-if [ ! -f "/app/models/unified_clean_manifest.json" ]; then
-    echo "❌ Error: characters file not found at /app/models/unified_clean_manifest.json"
+if [ ! -f "/app/models/vocab.json" ]; then
+    echo "❌ Error: characters file not found at /app/models/vocab.json"
     exit 1
 fi
 
