@@ -409,7 +409,7 @@ def main():
         "OBB_MODEL": "/app/models/last.pt",
         "CLASSIFIER_MODEL": "/app/models/em_iter_1.pt",      # 最佳 EM 迭代权重
         "VOCAB_PATH": "/app/models/vocab.json",
-        "ASSETS_DIR": "/saisdata/50/eval/images/",              # 包含 ppmi_*.pkl, kn_stats.pkl 等
+        "ASSETS_DIR": "/app/models/",              # 包含 ppmi_*.pkl, kn_stats.pkl 等
         "INPUT_DIR": "/saisdata/50/eval/images/",
         "OUTPUT_JSON": "/saisresult/prediction.json",
         "DEVICE": "cuda",

@@ -91,3 +91,4 @@ echo "File size: $(ls -lh /saisresult/prediction.json | awk '{print $5}')"
 echo "Number of images: $(python -c "import json; data=json.load(open('/saisresult/prediction.json')); print(len(data))")"
 echo ""
 echo "Done!"
+
