@@ -38,7 +38,7 @@ RUN python3 -m pip install --no-cache-dir -r requirements.txt && \
     python3 -m pip install --no-cache-dir \
         torch==2.2.0 torchvision==0.17.0 --index-url https://download.pytorch.org/whl/cu121 && pip install --no-cache-dir kaggle
         
-RUN kaggle datasets download -d maminde/cbs-pmi-models \
+RUN kaggle datasets download -d maminde/cbs-pmi-models/2 \
     -p /tmp/download --unzip --force && \
     mv /tmp/download/* /app/models/ && \
     rm -rf /tmp/download && \
